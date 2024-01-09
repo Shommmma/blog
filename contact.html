@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="contact.css" />
+  </head>
+  <body>
+    <header>
+      <img
+        src="https://cdn.freebiesupply.com/images/thumbs/1x/calvin-klein-logo.png"
+        alt="logo"
+      />
+
+      <nav class="menu">
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li>
+            <a href="#">Posts</a>
+            <nav class="posts-list">
+              <ul>
+                <li><a href="post1.html">Post 1</a></li>
+                <li><a href="post2.html">Post 2</a></li>
+                <li><a href="post3.html">Post 3</a></li>
+                <li><a href="post4.html">Post 4</a></li>
+              </ul>
+            </nav>
+          </li>
+          <li><a href="AboutMe.html">About</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <main id="contact">
+      <form>
+        <div>
+          <label>Name</label>
+          <input type="text" required />
+        </div>
+        <div>
+          <label>Email</label>
+          <input type="email" required />
+        </div>
+        <div>
+          <label>Password</label>
+          <input type="password" required />
+        </div>
+        <div>
+          <label>Phone</label>
+          <input type="tel" />
+        </div>
+        <div>
+          <label>Age</label>
+          <input type="number" min="0" max="150" />
+        </div>
+        <div>
+          <label> Birth date</label>
+          <input type="date" />
+        </div>
+        <div>
+          <label>Male</label>
+          <input type="radio" name="gender" value="male" />
+        </div>
+        <div>
+          <label>Female</label>
+          <input type="radio" name="gender" value="female" />
+        </div>
+        <div>
+          <label>Country</label>
+          <select>
+            <option value="az">Azerbaijan</option>
+            <option value="uk">United Kingdom</option>
+            <option value="usa">United states of America</option>
+          </select>
+        </div>
+        <div>
+          <label>Color</label>
+          <input type="color" />
+        </div>
+        <div>
+          <label>File</label>
+          <input type="file" />
+        </div>
+        <div>
+          <label>Message</label>
+          <textarea></textarea>
+        </div>
+        <div>
+          <label>I accept the terms</label>
+          <input type="checkbox" />
+        </div>
+        <button type="submit">Submit</button>
+        <button type="reset">Reset</button>
+      </form>
+      <iframe
+        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3039.898384290997!2d49.81203207591969!3d40.366777458678285!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x40307d583f4fde75%3A0xe52ee887d483c1c2!2sWisDoM%20Education%20Center!5e0!3m2!1sru!2saz!4v1702124563280!5m2!1sru!2saz"
+        width="600"
+        height="450"
+        style="border: 0"
+        allowfullscreen=""
+        loading="lazy"
+        referrerpolicy="no-referrer-when-downgrade"
+      ></iframe>
+    </main>
+
+    <footer>
+      <p>&copy;2023 CALVIN KLEIN</p>
+    </footer>
+  </body>
+</html>

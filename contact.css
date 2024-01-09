@@ -1,0 +1,83 @@
+header {
+  background-color: white;
+  text-align: center;
+  padding-right: 20px;
+  position: fixed;
+  width: 100%;
+  z-index: 10;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-left: 20px;
+  border-bottom: 1px solid #ebeae8;
+}
+
+header img {
+  width: 200px;
+}
+
+nav {
+  margin-right: 50px;
+}
+
+footer {
+  background-color: black;
+  color: white;
+  text-align: center;
+  padding: 16px;
+}
+main {
+  padding: 55px;
+  padding-top: 200px;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+#contact {
+  display: flex;
+  justify-content: center;
+}
+.menu ul {
+  list-style-type: none;
+  padding: 0;
+}
+.menu ul li {
+  display: inline;
+  margin: 0 20px;
+  position: relative;
+}
+.menu ul li a {
+  text-decoration: none;
+  color: black;
+}
+.menu ul li .posts-list {
+  display: none;
+  position: absolute;
+  top: 100%;
+  left: 0;
+  background-color: black;
+  padding: 10px 20px;
+  width: 45px;
+  border-radius: 5px;
+}
+.menu ul li:hover .posts-list {
+  display: block;
+}
+.menu ul li .posts-list ul {
+  padding: 0;
+  margin: 0;
+  list-style-type: none;
+}
+.menu ul li .posts-list ul li {
+  margin: 5px 0;
+}
+.menu ul li .posts-list ul li a {
+  color: white;
+  text-decoration: none;
+}
+#contact form div {
+  margin-bottom: 10px;
+}
